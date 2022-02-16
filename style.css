@@ -9,6 +9,8 @@ body{
     background-image: cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 150px;
+    
 }
 
 body::before {
@@ -29,12 +31,17 @@ body::before {
 }
 
 .header {
+    min-height: 150px;
+    max-width:600px;
     padding: 20px 50px;
     position: relative;
     z-index: 10;
+    min-width: 740px;
 }
 
 .login_body {
+   
+    max-width: 450px;
     padding: 60px;
     z-index: 90;
     position: relative;
@@ -120,6 +127,11 @@ body::before {
 
 .help a:hover {
     text-decoration: underline;
+}
+
+.login_footer{
+    min-height: 515px;
+  
 }
 
 .login_facebook {
